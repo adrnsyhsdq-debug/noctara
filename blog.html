@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 Modern Minimalist Living Room Ideas | Noctara Blog</title>
+    <meta name="description" content="Discover 10 modern minimalist living room ideas from Noctara — neutral palettes, statement furniture and timeless styling tips for an elevated living space.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+        body {
+            background-color: #0d0d0d;
+            color: #ffffff;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            overflow-x: hidden;
+            line-height: 1.7;
+        }
+        h1, h2, h3, .brand-name {
+            font-family: 'Playfair Display', serif;
+            letter-spacing: 2px;
+        }
+        .gold-text {
+            background: linear-gradient(to bottom, #E0C69A 0%, #C19F68 50%, #8A6B3D 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        a { text-decoration: none; color: inherit; }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 24px 6%;
+            border-bottom: 1px solid rgba(193, 159, 104, 0.2);
+            position: sticky;
+            top: 0;
+            background-color: rgba(13, 13, 13, 0.92);
+            backdrop-filter: blur(8px);
+            z-index: 10;
+        }
+        header .brand-name { font-size: 20px; font-weight: 600; }
+        header nav ul { list-style: none; display: flex; gap: 28px; }
+        header nav a { font-size: 14px; letter-spacing: 1px; text-transform: uppercase; opacity: 0.85; transition: opacity 0.2s, color 0.2s; }
+        header nav a:hover { opacity: 1; color: #C19F68; }
+
+        .article-wrap { max-width: 760px; margin: 0 auto; padding: 60px 6% 100px; }
+        .breadcrumb { font-size: 13px; opacity: 0.6; margin-bottom: 24px; letter-spacing: 0.5px; }
+        .breadcrumb a { color: #C19F68; }
+        .article-meta { font-size: 13px; opacity: 0.6; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 16px; }
+        h1.article-title { font-size: clamp(30px, 5vw, 46px); font-weight: 600; line-height: 1.25; margin-bottom: 28px; }
+        .lede { font-size: 18px; opacity: 0.85; margin-bottom: 40px; font-weight: 300; }
+
+        .cover-frame {
+            width: 100%;
+            aspect-ratio: 2 / 3;
+            max-height: 620px;
+            border: 1px solid rgba(193, 159, 104, 0.35);
+            border-radius: 4px;
+            margin-bottom: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(160deg, #1a1a1a 0%, #0d0d0d 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .cover-frame::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at 30% 20%, rgba(193,159,104,0.12), transparent 60%);
+        }
+        .cover-frame span {
+            font-family: 'Playfair Display', serif;
+            font-size: 15px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            opacity: 0.5;
+            text-align: center;
+            padding: 0 30px;
+            position: relative;
+        }
+
+        .article-body h2 { font-size: 26px; margin: 44px 0 16px; font-weight: 600; }
+        .article-body p { font-size: 16px; opacity: 0.88; margin-bottom: 18px; }
+        .idea-list { counter-reset: idea; margin: 32px 0; }
+        .idea-item { display: flex; gap: 20px; padding: 22px 0; border-top: 1px solid rgba(255,255,255,0.08); }
+        .idea-item:last-child { border-bottom: 1px solid rgba(255,255,255,0.08); }
+        .idea-num {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            min-width: 44px;
+            background: linear-gradient(to bottom, #E0C69A 0%, #C19F68 50%, #8A6B3D 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            flex-shrink: 0;
+        }
+        .idea-content h3 { font-size: 18px; margin-bottom: 6px; letter-spacing: 0.5px; }
+        .idea-content p { font-size: 15px; opacity: 0.75; margin-bottom: 0; }
+
+        .cta-block {
+            margin-top: 56px;
+            padding: 36px;
+            border: 1px solid rgba(193, 159, 104, 0.3);
+            border-radius: 4px;
+            text-align: center;
+            background: linear-gradient(180deg, rgba(193,159,104,0.06), transparent);
+        }
+        .cta-block p { font-size: 15px; opacity: 0.8; margin-bottom: 20px; }
+        .cta-button {
+            display: inline-block;
+            padding: 14px 34px;
+            border: 1px solid #C19F68;
+            border-radius: 2px;
+            font-size: 13px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #E0C69A;
+            transition: background 0.2s, color 0.2s;
+        }
+        .cta-button:hover { background: #C19F68; color: #0d0d0d; }
+
+        footer { border-top: 1px solid rgba(193, 159, 104, 0.2); padding: 40px 6%; text-align: center; }
+        footer p { font-size: 13px; opacity: 0.5; }
+        footer a { color: #C19F68; }
+
+        @media (max-width: 640px) {
+            header { padding: 18px 5%; }
+            header nav ul { gap: 16px; }
+            header nav a { font-size: 12px; }
+            .article-wrap { padding: 40px 6% 70px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="brand-name">NOCTARA</a>
+        <nav>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#collections">Collections</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="https://collshp.com/noctara" target="_blank">Online Store</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="article-wrap">
+        <p class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; <a href="blog.html">Blog</a> &nbsp;/&nbsp; Living Room</p>
+        <p class="article-meta">Living Room &nbsp;·&nbsp; 6 min read</p>
+        <h1 class="article-title">10 Modern Minimalist <span class="gold-text">Living Room</span> Ideas for 2026</h1>
+        <p class="lede">A calm, elevated space starts with restraint. Here's how to build a modern minimalist living room using neutral palettes, considered statement furniture and timeless styling — the Noctara way.</p>
+
+        <div class="cover-frame">
+            <span>Modern Minimalist Living Room — Noctara Edit</span>
+        </div>
+
+        <div class="article-body">
+            <p>Minimalism isn't about having less for the sake of it — it's about giving every piece in the room room to breathe. A well-edited living room feels calmer, photographs better, and ages more gracefully than one crowded with trend-driven clutter. These ten ideas are the foundation we return to on every Noctara project.</p>
+
+            <h2>The Foundations</h2>
+            <p>Before choosing furniture, set the palette and let the architecture of the room lead. Everything else should support that quiet backdrop rather than compete with it.</p>
+
+            <div class="idea-list">
+                <div class="idea-item">
+                    <span class="idea-num">01</span>
+                    <div class="idea-content">
+                        <h3>Start with a neutral base palette</h3>
+                        <p>Oatmeal, ivory, warm grey and soft taupe give a room longevity that trend colours can't match.</p>
+                    </div>
+                </div>
+                <div class="idea-item">
+                    <span class="idea-num">02</span>
+                    <div class="idea-content">
+                        <h3>Choose one statement piece, not five</h3>
+                        <p>A sculptural coffee table or a single bouclé armchair does more for the room than a dozen small accents.</p>
+                    </div>
+                </div>
+                <div class="idea-item">
+                    <span class="idea-num">03</span>
+                    <div class="idea-content">
+                        <h3>Let natural light lead the layout</h3>
+                        <p>Position seating to face the window, not the television. Daylight is the best styling tool you have.</p>
+                    </div>
+                </div>
+                <div class="idea-item">
+                    <span class="idea-num">04</span>
+                    <div class="idea-content">
+                        <h3>Low-profile furniture opens up the room</h3>
+                        <p>A low sofa and low coffee table create visual space even in a compact footprint.</p>
+                    </div>
+                </div>
+                <div class="idea-item">
+                    <span class="idea-num">05</span>
+                    <div class="idea-content">
+                        <h3>Layer textures, not colours</h3>
+                        <p>Linen, light oak, bouclé and brushed brass side by side add warmth without breaking the neutral palette.</p>
+                    </div>
+                </div>
+                <div class="idea-item">
+                    <span class="idea-num">06</span>
+                    <div class="idea-content">
+                        <h3>Keep decor to one considered vignette</h3>
+                        <p>A single ceramic vase, a stack of two books — one thoughtful arrangement beats scattered trinkets.</p>
+                    </div>
+                </div>
+                <div class="idea-item">
+                    <span class="idea-num">07</span>
+                    <div class="idea-content">
+                        <h3>Choose warm-toned lighting</h3>
+                        <p>A slim brass floor lamp with a warm bulb does more for atmosphere than any overhead fixture.</p>
+                    </div>
+                </div>
+                <div class="idea-item">
+                    <span class="idea-num">08</span>
+                    <div class="idea-content">
+                        <h3>Respect classic architectural details</h3>
+                        <p>Crown moulding, herringbone floors and tall windows don't need to be hidden by minimalism — let them show.</p>
+                    </div>
+                </div>
+                <div class="idea-item">
+                    <span class="idea-num">09</span>
+                    <div class="idea-content">
+                        <h3>Leave visual breathing room</h3>
+                        <p>Empty wall space is not wasted space — it's what makes the statement pieces read as intentional.</p>
+                    </div>
+                </div>
+                <div class="idea-item">
+                    <span class="idea-num">10</span>
+                    <div class="idea-content">
+                        <h3>Invest once, in pieces that last</h3>
+                        <p>A well-made sofa or table outlives a dozen trend purchases — both financially and aesthetically.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Bringing It Together</h2>
+            <p>None of these ideas work in isolation — a minimalist living room comes together through restraint applied consistently across furniture, palette, light and layout. Start with the base, add one statement piece, and resist the urge to fill every empty corner.</p>
+        </div>
+
+        <div class="cta-block">
+            <p>Explore the Noctara Edit — curated furniture for elevated, minimalist living spaces.</p>
+            <a href="https://collshp.com/noctara" target="_blank" class="cta-button">Shop the Collection</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Noctara — Elevating Your Living Space. &nbsp;|&nbsp; <a href="mailto:adrnsyhsdq@gmail.com">adrnsyhsdq@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
